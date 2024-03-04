@@ -7,7 +7,7 @@ import { AuthService } from './auth/auth.service';
 // aqui podemos importar todos modulos(modulo de autenticacao, etc)
 @Module({
   imports: [AuthModule, UserModule, BookmarkModule],
-  providers:[AuthService]
+  providers:[AuthService],
  
 })
 export class AppModule {}
