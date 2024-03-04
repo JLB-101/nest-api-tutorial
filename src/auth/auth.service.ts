@@ -1,6 +1,13 @@
-import { Injectable } from "@nestjs/common";
+import { Injectable, Post } from "@nestjs/common";
 
 @Injectable({})// para servicos
-export class AuthService{
-    
+export class AuthService {
+
+    login() {
+
+    }
+
+    signup() {
+
+    }
 }
