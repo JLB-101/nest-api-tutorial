@@ -3,10 +3,11 @@ import { AuthModule } from './auth/auth.modules';// importando o modulo de auten
 import { UserModule } from './user/user.module';
 import { BookmarkModule } from './bookmark/bookmark.module';
 import { AuthService } from './auth/auth.service';
+import { AuthController } from './auth/auth.controller';
 
 // aqui podemos importar todos modulos(modulo de autenticacao, etc)
 @Module({
-  imports: [AuthModule, UserModule, BookmarkModule],
+  controllers: [AuthController],
   providers:[AuthService],
  
 })
